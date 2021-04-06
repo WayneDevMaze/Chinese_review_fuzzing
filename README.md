@@ -1,8 +1,8 @@
->[《A Survey of Hybrid Fuzzing based on Symbolic Execution》]()
->
->
+>[《A Survey of Hybrid Fuzzing based on Symbolic Execution》](https://dl.acm.org/doi/abs/10.1145/3444370.3444570)
+>[ PDF 下载](https://dl.acm.org/doi/pdf/10.1145/3444370.3444570)
+>DOI:10.1145/3444370.3444570
 
-# review_fuzzing
+# review_fuzzing 初期设想
 关于模糊测试技术，但是想写一个针对某一类的综述，不可能是全部的Fuzzing发展综述，那用难度有点大。  
 最终选取 “基于符合执行和模糊测试的混合模糊测试技术综述” 为题。  
 综述所探讨的点：
@@ -10,3 +10,6 @@
 2. 为什么加入符号执行？ 解决复杂路径 / 步入更深的路径  
 3. 混合模糊测试效率怎样？*本来是想用 MAZE 的形式进行比对，后来没时间搞了，就没在这篇论文里放，后面做完放毕业论文里面当一个新的模糊测试效率测试标准用吧23333*
 4. 各类混合模糊测试之间的比较；
+
+## TODO：
+这个project后面还需要做的就是把之前计划设计的 MAZE 那个测试程序搞完，做个完整的数据集；
